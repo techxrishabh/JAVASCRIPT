@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-Basics</title>
+</head>
+<body>
+    <h1>Hello-world</h1>
+    <h4>Hello-people</h4>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="text" id="team" onclick="alert('Hello-world')">click-me</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+    <button class="but" id="my">my-button</button>
+</body>
+<!--How we can use inline-->
+<script>
+    document.querySelectorAll('.but').forEach((item) => {
+        item.addEventListener('click', () => {
+            alert('This is good')
+        })
+    })
+</script>
+</html>
