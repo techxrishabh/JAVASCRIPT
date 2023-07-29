@@ -277,11 +277,13 @@ switch (dice) {
 
 //======= While-Loops =========
 
-// let amount = 10;
-// while (amount > 0) {
-//   console.log("I have " + amount + " dollars and i am going to the mall");
-//   amount--;
-// }
+let amount = 10;
+while (amount > 0) {
+  console.log("I have " + amount + " dollars and i am going to the mall");
+  amount--;
+}
+
+//======== Do-While-Loops ==========
 
 let cash = 12;
 do {
