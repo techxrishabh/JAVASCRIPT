@@ -319,18 +319,18 @@ console.log(text.includes("eter"));
 console.log(text.slice(0, 2));
 console.log(text.slice(-3));
 
-// const person = {
-//   name: 'peter', // property
-//   greeting() {
-//     // method
-//     console.log("Hey, I'm Peter");
-//   },
-// };
+const person = {
+  name: "peter", // property
+  greeting() {
+    // method
+    console.log("Hey, I'm Peter");
+  },
+};
 
-// console.log(person);
+console.log(person);
 
-// console.log(person.name);
-// person.greeting();
+console.log(person.name);
+person.greeting();
 
 //==============================================================
 
