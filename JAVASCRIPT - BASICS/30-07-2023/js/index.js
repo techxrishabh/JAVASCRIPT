@@ -21,7 +21,7 @@ let fullname = names.concat(lastname);
 console.log(fullname);
 
 // we can also reverse the value of an array ==========
-
+console.log("reversing the value of an array");
 console.log(fullname.reverse());
 
 //we can also add an array by using this method , this method add the array from start ===========
