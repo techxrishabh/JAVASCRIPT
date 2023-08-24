@@ -19,7 +19,7 @@ last.style.color = "red";
 console.log(last);
 
 let list = document.querySelectorAll(".special");
-list.forEach(function (item) {
-  console.log(item);
-  item.style.color = "#be2465";
+list.forEach(function (dark) {
+  console.log(dark);
+  dark.style.color = "#be2465";
 });
