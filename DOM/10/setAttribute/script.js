@@ -1,19 +1,17 @@
 //getAttribute
 //setAttribute
 
-const first = document.querySelector(".first");
-console.log(first);
-const idValue = first.getAttribute("id");
+// SET ATTRIBUTE
 
-//By using this we can get the value of id in the console
-// like here the ID i put is special
-
-console.log(idValue);
-
-const last = document.querySelectorAll(".first");
+const last = link.nextElementSibling;
 console.log(last);
+// li selected
 
-//we can also get link by using get attribute
-const link = document.getElementById("link");
-const showLink = link.getAttribute("href");
-console.log(showLink);
+const classValue = last.setAttribute("class", "first");
+console.log(classValue);
+
+//We can change the value of any class by using setAttribute
+//like here i changed the value of li element from i have no attribute to i also have a class of first
+
+last.textContent = "I also have a class of first";
+console.log(last);
