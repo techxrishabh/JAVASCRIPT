@@ -1,19 +1,27 @@
 // className = we can check our class name by using className   property
-// classList
+// classList = we can add or remove the class name property in an element by using add or remove in the class list
 
 const first = document.getElementById("first");
 const second = document.getElementById("second");
 const third = document.getElementById("third");
 
-//lets check class name ===========================
+const firstValue = first.className;
+console.log(firstValue);
 
-classNameCheck = first.className;
-console.log(classNameCheck);
+//we can attach our class property by using add property in className
+second.classList.add("text", "colors");
 
-// we can also add class name in any element dynamically by using js like this -=========
-first.className = "colors";
-second.className = "text";
+//we can also remove the class attached in the element by using the remove property
 
-// we can also add 2 class name in any element dynamically by using js like this -=========
+second.classList.remove("colors");
 
-third.className = "text colors";
+//we can also check if the element really contains the property of some class or not by using the contains property in the classList  =======
+
+//eg ===============================
+
+let result = second.classList.contains("text");
+if (result) {
+  console.log("it contains the text property");
+} else {
+  console.log("it doesnot contains the text property ");
+}
