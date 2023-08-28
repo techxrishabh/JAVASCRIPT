@@ -31,7 +31,19 @@ document.body.insertBefore(bodyDiv, result);
 
 //CREATING THE H2 ELEMENT
 const heading = document.createElement("h2");
-const textValue = heading.createTextNode("dynamic heading");
+const textValue = document.createTextNode("dynamic heading");
 heading.appendChild(textValue);
 heading.classList.add("blue");
 result.insertBefore(heading, first);
+
+//creating the h6 element
+const smallHeading = document.createElement("h6");
+const textData = document.createTextNode("keep pushing yourself hard");
+smallHeading.appendChild(textData);
+smallHeading.classList.add("blue");
+
+// ==================================================
+// //   it replaces the  small-heading with body-div
+// ====================================================
+
+document.body.replaceChild(smallHeading, bodyDiv);
