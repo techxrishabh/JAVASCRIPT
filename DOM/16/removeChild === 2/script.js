@@ -1,8 +1,10 @@
-// remove()
-// removeChild
+//removeChild()
 
-//lets first select the id that we want to remove
+// removeChild = it require a parent element and its child
+// like here our parent is result tagged element and child is h1
+
 const result = document.querySelector("#result");
-// now lets try to remove that selected id
-result.remove();
-// now it has removed
+const heading = result.querySelector("h1");
+result.removeChild(heading);
+
+console.log(heading);
