@@ -15,31 +15,31 @@
 const students = [
   {
     id: 1,
-    name: "Rishabh",
+    name: Rishabh,
     score: 100,
     favoriteSubject: "math",
   },
   {
     id: 2,
-    name: "Priyanshu",
+    name: Priyanshu,
     score: 100,
     favoriteSubject: "English",
   },
   {
     id: 3,
-    name: "Manish",
+    name: Manish,
     score: 100,
     favoriteSubject: "Hindi",
   },
   {
     id: 4,
-    name: "Rishu",
+    name: Rishu,
     score: 100,
     favoriteSubject: "Science",
   },
   {
     id: 5,
-    name: "Vikash",
+    name: Vikash,
     score: 100,
     favoriteSubject: "Social",
   },
