@@ -1,5 +1,8 @@
 //====================== CALLBACK FUNCTIONS AND HIGHER ORDER FUNCTIONS ======================
 
+// Functions are first class objects - stored in a variable(expression) passed as an argument to another function,
+// return from the function (closure)
+
 //Higher Order Function =================
 // It accepts another function as an argument or returns another function as a result ====
 
