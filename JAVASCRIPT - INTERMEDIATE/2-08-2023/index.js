@@ -22,9 +22,19 @@ function greetAfternoon(name) {
 greetMorning("Priyanshu");
 greetAfternoon("Priyanshu");
 
+
+
 //High order function _________________________________
 
+// If the function takes the another function as an argument, it is called higher order function ....
+
+
+
 //Call back function __________________________________
+// The function that we are passing to another function is called the callback function ....
+
+
+
 
 console.log("THIS IS CALLBACK FUNCTION");
 
