@@ -45,14 +45,9 @@ const students = [
   },
 ];
 
-console.log(students);
-
-// #### Use Multiple Files
-
-// - easer to manage code base (file, project)
-// - order matters
-// - other ways to achieve the same result (ES6 modules, fetch DB )
-// - not limited to just static data
+function sayName(name) {
+  console.log(name);
+}
 
 // #### updatedStudents
 
