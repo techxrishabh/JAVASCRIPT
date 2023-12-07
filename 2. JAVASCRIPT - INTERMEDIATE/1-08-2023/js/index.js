@@ -1,7 +1,7 @@
 //================  ==============  ===================== =============
 //================  ==============  ===================== =============
 
-// Refernce vs Value
+// Reference vs Value
 // Primitive Data Types
 // String, Number, Symbol, Boolean, Undefined, Null,
 // Arrays, Functions, Objects = object
