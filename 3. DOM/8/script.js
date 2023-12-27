@@ -15,3 +15,4 @@ const last = document.querySelector("#last");
 const third = last.previousSibling.previousSibling;
 console.log(third);
 console.log(last.nextSibling.nextSibling);
+
