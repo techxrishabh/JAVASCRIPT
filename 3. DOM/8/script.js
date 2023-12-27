@@ -6,7 +6,7 @@ const first = document.querySelector(".first");
 const second = (first.nextSibling.nextSibling.style.color = "red");
 console.log(second);
 
-// if we dont use nextSibling two times the we will get only white space from the first time
+// if we dont use nextSibling two times then we will get only white space from the first time
 //eg of white space
 const whitespace = first.nextSibling;
 console.log(whitespace);
